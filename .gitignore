@@ -1,0 +1,8 @@
+.DS_STORE
+.cache*
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.jpg
+.idea
+.venv
