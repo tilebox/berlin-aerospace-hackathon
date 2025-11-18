@@ -3,7 +3,7 @@
 </h1>
 
 <h1 align="center">
-Berlin Aerospace Hackathon Challenges
+Berlin Aerospace Hack - Tilebox Challenges
 </h1>
 <h3 align="center">
   Tilebox is proud to be a sponsor of the Berlin Aerospace Hackathon

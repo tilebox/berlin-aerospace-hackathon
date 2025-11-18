@@ -1,3 +1,7 @@
+<h1 align="center">
+  <img src="https://media.licdn.com/dms/image/v2/D4E22AQGzX28pgwJsZA/feedshare-shrink_800/B4EZqWNcXVKkAg-/0/1763456701163?e=1764806400&v=beta&t=KYyDsMqqOoS66gmea1c6JUvgxi1GmVSI8vykeoiQ8d8" width="400" height="350" alt="Tilebox Logo">
+</h1>
+
 # Challenge Briefing: Mini-Constellation Tasking Planner
 
 **​Difficulty:** Advanced
