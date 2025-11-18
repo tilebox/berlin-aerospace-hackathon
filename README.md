@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=90,width=600,height=600/event-covers/f4/720fc56d-1995-4a85-883e-7cf718e0ea5f.png" alt="Berlin Aerospace Hackathon Logo">
+<img src="https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=90,width=400,height=400/event-covers/f4/720fc56d-1995-4a85-883e-7cf718e0ea5f.png" alt="Berlin Aerospace Hackathon Logo">
 </h1>
 
 <h1 align="center">
@@ -21,6 +21,10 @@ Berlin Aerospace Hackathon Challenges
   |
   <a href="https://github.com/tilebox/examples"><b>Code Examples</b></a>
 </p>
+
+## Free business tier capacity for participants during the hackathon!
+
+Tilebox is happy to provide free business tier capacity for hackathon participants during the hackathon. This will allow you to access our full suite of APIs and datasets without any usage limits. Simply ping us on our [Discord](https://tilebox.com/discord) and we'll get you set up. We're looking forward to seeing what you build!
 
 ## Challenge Overview
 
