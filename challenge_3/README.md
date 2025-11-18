@@ -1,12 +1,16 @@
 # Challenge Briefing: Mini-Constellation Tasking Planner
 
 **​Difficulty:** Advanced
+
 **Theme:** Mission Planning • Constellation Optimization • Cloud-Aware Scheduling
 
 ## ​🧠 The Core Problem
 
 ​You’re running a tiny virtual earth-observation constellation — 3 to 6 satellites.
-Your mission: Plan the next 24–72 hours of imaging over a target AOI but with real-world constraints:
+
+### Your mission:
+
+Plan the next 24–72 hours of imaging over a target AOI but with real-world constraints:
 
 - ​Satellites move — you must propagate orbits and compute visibility windows
 - ​Earth rotates — terrain masks, shadows, daylight constraints change constantly
@@ -19,6 +23,7 @@ Your mission: Plan the next 24–72 hours of imaging over a target AOI but with 
 Build a smart tasking planner that beats a naive baseline and proves it with maps, KPIs, and scheduled task timelines.
 
 ​This is essentially:
+
 **Mission Planning + Optimization + Geospatial Reasoning + Satellite Ops in a Box.**
 
 ## ​🔧 Tools You Can Use
@@ -60,7 +65,7 @@ Build a smart tasking planner that beats a naive baseline and proves it with map
 - ​Timeline charts
 - ​CesiumJS 3D scenes (optional but awesome)
 
-​📦 What You Must Deliver
+## ​​📦 What You Must Deliver
 
 1. ​A coverage map
    Footprints colored by satellite & timestamp.
@@ -75,10 +80,11 @@ Build a smart tasking planner that beats a naive baseline and proves it with map
 - ​average off-nadir angle
 - ​comparison vs naive “first visible = take image” baseline
 
-**​Bonus: Visualization / Demo**
+### ​Bonus: Visualization / Demo
+
 A clean, intuitive, hacker-friendly interface always scores extra points.
 
-​📂 You Get
+## ​📂 You Get
 
 - ​TLEs for a 3–6-satellite constellation
 - ​AOI shapefiles
@@ -91,7 +97,7 @@ A clean, intuitive, hacker-friendly interface always scores extra points.
     - ​https://docs.tilebox.com/datasets
     - ​https://docs.tilebox.com/workflows
 
-​🔑 Tips for Hackathon Success
+## ​🔑 Tips for Success
 
 - ​Start with visibility windows only — then add clouds & sun angles
 - ​Cache everything — visibility and weather lookups add up
