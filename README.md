@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=90,width=400,height=400/event-covers/f4/720fc56d-1995-4a85-883e-7cf718e0ea5f.png" alt="Berlin Aerospace Hackathon Logo">
+<img src="https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=90,width=150,height=150/event-covers/f4/720fc56d-1995-4a85-883e-7cf718e0ea5f.png" alt="Berlin Aerospace Hackathon Logo">
 </h1>
 
 <h1 align="center">
