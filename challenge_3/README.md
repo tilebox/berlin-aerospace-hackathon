@@ -4,13 +4,10 @@
 
 # Challenge Briefing: Mini-Constellation Tasking Planner
 
-**Difficulty:** Advanced
-
-**Theme:** Mission Planning • Constellation Optimization • Cloud-Aware Scheduling
-
 ## 🧠 The Core Problem
 
-You’re running a 6-satellite virtual earth-observation constellation.
+You’re running a 6-satellite earth-observation constellation.
+You've been asked to capture images over a target AOI for strategic reasons.
 
 ### Your mission
 
@@ -26,18 +23,49 @@ Your job is to build a smart tasking planner that beats a naive baseline and pro
 
 This is essentially: **Mission Planning + Optimization + Geospatial Reasoning + Satellite Ops in a Box.**
 
-## 🔧 Tools You Can Use
+## 📦 Deliverables
+
+- A coverage map
+   Footprints colored by satellite & timestamp.
+- Tasking schedule (CSV/JSON)
+   With start/stop times, which constraints were satisfied, and which satellite executes each task.
+- Key performance metrics
+  - % of AOI covered
+  - cloud-free area achieved
+  - average off-nadir angle
+  - comparison vs naive “first visible = take image” baseline
+
+### Bonus points
+
+A clean, intuitive, hacker-friendly visualization interface.
+
+## 📂 Provided Materials
+
+- AOI targets ([germany.json](germany.json) and [austria.json](austria.json))
+- Starter notebook: [Mini_Constellation_Tasking_Planner_Challenge.ipynb](Mini_Constellation_Tasking_Planner_Challenge.ipynb)
+  - Imaging constraint parameters
+  - Sample SGP4 code
+  - Sample cloud forecast code
+  - and more...
+- Tilebox Datasets + Workflows + Query API access
+  - [TLEs for WorldView Legion constellation](https://console.tilebox.com/datasets/explorer/9dd28d78-20ad-4ef5-841b-9a9f94506a68)
+  - Docs:
+    - https://docs.tilebox.com
+    - https://docs.tilebox.com/datasets
+    - https://docs.tilebox.com/workflows
+
+## 🔧 Suggested Tools
 
 A suggested list of tools you can use to build your solution.
 
 #### 🛰 Orbital Mechanics
 
-- SGP4 (provided propagation code)
+- SGP4
 - satellite.js or python-sgp4
 
 #### 🌤 Weather & Environment
 
-- Provided cloud forecast rasters
+- Open-Meteo API for cloud forecast
 - Tilebox time-series & spatio-temporal queries
 - Solar geometry libraries (e.g., pvlib or simple sun-angle formulas)
 
@@ -63,46 +91,12 @@ A suggested list of tools you can use to build your solution.
 - Coverage heatmaps
 - Footprint overlays
 - Timeline charts
-- CesiumJS 3D scenes (optional but awesome)
-
-## 📦 What You Must Deliver
-
-1. A coverage map
-   Footprints colored by satellite & timestamp.
-
-2. Tasking schedule (CSV/JSON)
-   With start/stop times, which constraints were satisfied, and which satellite executes each task.
-
-3. Key performance metrics
-
-- % of AOI covered
-- cloud-free area achieved
-- average off-nadir angle
-- comparison vs naive “first visible = take image” baseline
-
-### Bonus: Visualization / Demo
-
-A clean, intuitive, hacker-friendly interface.
-
-## 📂 You Get
-
-- AOI targets ([germany.json](germany.json) and [austria.json](austria.json))
-- Starter notebook: [Mini_Constellation_Tasking_Planner_Challenge.ipynb](Mini_Constellation_Tasking_Planner_Challenge.ipynb)
-  - Imaging constraint parameters
-  - Sample SGP4 code
-  - Sample cloud forecast code
-  - and more...
-- Tilebox Datasets + Workflows + Query API access
-  - [TLEs for WorldView Legion constellation](https://console.tilebox.com/datasets/explorer/9dd28d78-20ad-4ef5-841b-9a9f94506a68)
-  - Docs:
-    - https://docs.tilebox.com
-    - https://docs.tilebox.com/datasets
-    - https://docs.tilebox.com/workflows
+- CesiumJS 3D scenes
 
 ## 🔑 Tips for Success
 
-- Start with visibility windows only — then add clouds & sun angles
-- Cache everything — visibility and weather lookups add up
-- Visualize constraints early — footprints, sun angles, clouds
+- Start with visibility windows only, then add clouds & sun angles
+- Cache everything (visibility, weather lookups, etc)
+- Visualize constraints early (footprints, sun angles, clouds, etc)
 - Keep the scoring metric simple
-- Use the provided data aggressively — it will save hours
+- Use the provided data aggressively, it will save hours

@@ -14,15 +14,15 @@ Map the invisible highways in the sky where aircraft can fly at Mach 1.1–1.3 w
 
 This is where Mach cutoff physics meets real-time atmospheric modeling, you’ll use temperature and wind gradients to find where shockwaves bend upward and vanish before touching Earth’s surface.
 
-## 📦 What You Must Deliver
+## 📦 Deliverables
 
-1. Interactive corridor maps showing viable boomless supersonic routes over selected regions
-2. Maximum allowable Mach per route segment
-3. Atmospheric profile visualizations (temperature gradients, wind shear, stability layers)
-4. Terrain-aware cutoff altitude computations
-5. Time-varying maps showing how viable corridors shift throughout the day
+- Interactive corridor maps showing viable boomless supersonic routes over selected regions
+- Maximum allowable Mach per route segment
+- Atmospheric profile visualizations (temperature gradients, wind shear, stability layers)
+- Terrain-aware cutoff altitude computations
+- Time-varying maps showing how viable corridors shift throughout the day
 
-## 📂 You Get
+## 📂 Provided Materials
 
 - Atmospheric profile datasets (temperature, wind, pressure by altitude)
 - Global terrain elevation (DEM)
