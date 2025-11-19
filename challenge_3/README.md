@@ -12,7 +12,7 @@
 
 ​You’re running a tiny virtual earth-observation constellation — 3 to 6 satellites.
 
-### Your mission:
+### Your mission
 
 Plan the next 24–72 hours of imaging over a target AOI but with real-world constraints:
 
@@ -22,7 +22,7 @@ Plan the next 24–72 hours of imaging over a target AOI but with real-world con
 - ​Imaging geometry matters — off-nadir angles, sun angle constraints, slews, etc.
 - ​Time is limited — you need the best coverage, not just the first-visible pass
 
-### ​Your job:
+### ​Your job
 
 Build a smart tasking planner that beats a naive baseline and proves it with maps, KPIs, and scheduled task timelines.
 
@@ -32,7 +32,7 @@ Build a smart tasking planner that beats a naive baseline and proves it with map
 
 ## ​🔧 Tools You Can Use
 
-​You’re allowed - and encouraged - to combine these building blocks:
+A suggested list of tools you can use to build your solution.
 
 #### ​🛰 Orbital Mechanics
 

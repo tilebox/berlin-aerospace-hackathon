@@ -22,9 +22,9 @@ Berlin Aerospace Hack - Tilebox Challenges
   <a href="https://github.com/tilebox/examples"><b>Code Examples</b></a>
 </p>
 
-## Free business tier capacity for participants during the hackathon!
+## Free starter tier capacity for participants during the hackathon!
 
-Tilebox is happy to provide free business tier capacity for hackathon participants during the hackathon. This will allow you to access our full suite of APIs and datasets without any usage limits. Simply ping us on our [Discord](https://tilebox.com/discord) and we'll get you set up. We're looking forward to seeing what you build!
+Tilebox is happy to provide free starter tier capacity for hackathon participants during the hackathon. This will allow you to access our full suite of APIs and datasets. Simply ping us in person or on our [Discord](https://tilebox.com/discord) and we'll get you set up. We're looking forward to seeing what you build!
 
 ## Challenge Overview
 
