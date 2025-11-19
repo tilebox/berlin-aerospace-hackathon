@@ -32,7 +32,7 @@ Map destroyed/damaged infrastructure (Ukraine or similar AOIs) using Sentinel-1 
 
 Track thermal anomalies & ash plumes with Landsat-8 TIRS + Sentinel-2.
 
-​## ⚙️ Relevant Tilebox Features
+## ⚙️ Relevant Tilebox Features
 
 - [​Spatio-temporal queries](https://docs.tilebox.com/datasets/query/filter-by-location) for Sentinel Data, Landsat, and more
 - [​Workflow orchestration](https://docs.tilebox.com/workflows/introduction) for multi-temporal change detection pipelines
@@ -48,7 +48,7 @@ Track thermal anomalies & ash plumes with Landsat-8 TIRS + Sentinel-2.
 
 ## ​🗂️ Provided Materials
 
-- [​Sample AOIs + event metadata for historical events](./challenge2.md)
+- [​Sample AOIs + event metadata for historical events](./events.md)
 - ​Tilebox Open Data links:
   - ​Sentinel-2 (Optical) – burn scars, NDVI, building damage
   - ​Landsat-8 TIRS (Thermal) – heat islands, volcanic anomalies
