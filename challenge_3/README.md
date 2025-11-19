@@ -22,13 +22,9 @@ Plan the next 24–72 hours of imaging over a target AOI (Germany or Austria) bu
 - Imaging geometry matters — off-nadir angles, sun angle constraints, slews, etc.
 - Time is limited — you need the best coverage, not just the first-visible pass
 
-### Your job
+Your job is to build a smart tasking planner that beats a naive baseline and proves it with maps, KPIs, and scheduled task timelines.
 
-Build a smart tasking planner that beats a naive baseline and proves it with maps, KPIs, and scheduled task timelines.
-
-This is essentially:
-
-**Mission Planning + Optimization + Geospatial Reasoning + Satellite Ops in a Box.**
+This is essentially: **Mission Planning + Optimization + Geospatial Reasoning + Satellite Ops in a Box.**
 
 ## 🔧 Tools You Can Use
 
