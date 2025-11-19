@@ -28,8 +28,10 @@ This is where Mach cutoff physics meets real-time atmospheric modeling, you’ll
 - Global terrain elevation (DEM)
 - Mach cutoff reference equations & physics implementations
 - Predefined geographic regions of interest (continental-scale routes)
-- Tilebox Datasets + Workflows + Query API access
-  - Spatio-temporal queries for reanalysis & forecast data
-  - Distributed workflows to compute corridors across spatial grids and forecast timesteps
-  - Recursive chunking to parallelize time windows and route segments
-  - Autoscaling spot instances for cost-efficient large-scale computation
+
+## ⚙️ Relevant Tilebox Features
+
+- [Spatio-temporal queries](https://docs.tilebox.com/datasets/query/filter-by-location) for reanalysis & forecast data
+- [Distributed workflows](https://docs.tilebox.com/workflows/concepts/tasks) to compute corridors across spatial grids and forecast timesteps
+- [Recursive chunking](https://docs.tilebox.com/workflows/concepts/tasks#recursive-subtasks) to parallelize time windows and route segments
+- [Autoscaling spot instances](https://github.com/tilebox/tilebox-iac/) for cost-efficient large-scale computation
