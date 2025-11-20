@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://media.licdn.com/dms/image/v2/D4E22AQEilT0LrkLt8A/feedshare-shrink_800/B4EZpsoDW3HoAg-/0/1762759032302?e=1765411200&v=beta&t=IX_2X8z6nZ74rT7FeDZx--Yt8xVSJIjpEZ2B-Sed6e4" width="400" height="350" alt="A supersonic aircraft flying through the sky.">
+  <img src="https://boomsupersonic.com/wp-content/uploads/2025/02/xb-1-boomless-cruise.jpg" width="500" height="375" alt="Visualization of a supersonic aircraft flying through the sky.">
 </h1>
 
 # Challenge Briefing: Supersonic Boomless Flight Corridor Mapper
