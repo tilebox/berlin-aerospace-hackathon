@@ -22,9 +22,19 @@ Berlin Aerospace Hack - Tilebox Challenges
   <a href="https://github.com/tilebox/examples"><b>Code Examples</b></a>
 </p>
 
+<p align="center">
+  <a href="https://tilebox.com/discord">
+    <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=flat-square&logo=discord&logoColor=white" alt="Join us on Discord"/>
+  </a>
+</p>
+
 ## Free starter tier capacity for participants during the hackathon!
 
-Tilebox is happy to provide free starter tier capacity for hackathon participants during the hackathon. This will allow you to access our full suite of APIs and datasets. Simply ping us in person or on our [Discord](https://tilebox.com/discord) and we'll get you set up. We're looking forward to seeing what you build!
+We're upgrading all Community Access quotas to **Starter tier** (value of **$500**) for the duration of the hackathon! This will allow you to access our full suite of APIs and datasets.
+
+We're looking forward to seeing what you build!
+
+If you have any questions, simply ping us in person or on our [Discord](https://tilebox.com/discord).
 
 ## Challenge Overview
 
